@@ -13,6 +13,10 @@ var AppComponent = (function () {
     return AppComponent;
 }());
 AppComponent = __decorate([
-    core_1.Component({ selector: 'application', template: "Hello World !!!" })
+    core_1.Component({
+        selector: 'application',
+        templateUrl: "./views/app.template.html"
+        // template:"Hello World.."
+    })
 ], AppComponent);
 exports.AppComponent = AppComponent;
