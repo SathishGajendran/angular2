@@ -2,3 +2,4 @@ node_modules/
 app/.baseDir.ts
 build/
 views/
+.tscache/
